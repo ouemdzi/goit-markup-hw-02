@@ -38,6 +38,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.logo-links:hover {
+  color: #404bbf;
+}
 
 .address-links {
   color: #e7e9fc;
@@ -46,6 +49,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
+}
+.address-links:hover,
+.address-links:focus {
+  color: #404bbf;
 }
 
 .header-title {
@@ -61,15 +68,17 @@ ul {
   background-color: #4d5ae5;
   width: 169px;
   height: 56px;
-}
-
-.button-link {
   color: #fff;
   text-align: center;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.header-button:hover {
+  background-color: #404bbf;
 }
 
 .advantages-title {
@@ -90,7 +99,6 @@ ul {
 .advantages-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 264px;
@@ -133,7 +141,6 @@ ul {
   color: #434455;
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -166,7 +173,6 @@ ul {
 .app-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -196,7 +202,6 @@ footer {
   height: 72px;
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
