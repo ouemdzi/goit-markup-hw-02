@@ -1,7 +1,5 @@
 body {
-  width: 1440px;
-  height: 3300px;
-  color: #2e2f42;
+  color: #434455;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
 }
@@ -14,40 +12,50 @@ ul {
   list-style-type: none;
 }
 
-.head-section {
-  background-color: #2e2f42;
-  width: 1640px;
-  height: 600px;
-}
+/* ========================================= */
 
-.logo {
-  color: #ffffff;
-  font-family: "Raleway";
+.head-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.logo-part {
+  color: #2e2f42;
 }
 
 .logo-links {
-  color: #ffffff;
+  color: #2e2f42;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-.logo-links:hover {
+.logo-links:hover,
+.logo-links:focus {
   color: #404bbf;
 }
 
+/* ========================================= */
+
+.header-address {
+  font-style: normal;
+}
+
+.header-section {
+  background-color: #2e2f42;
+}
+
 .address-links {
-  color: #e7e9fc;
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 .address-links:hover,
@@ -60,26 +68,27 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .header-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-.header-button:hover {
+.header-button:hover,
+.header-button:focus {
   background-color: #404bbf;
 }
+
+/* ========================================= */
 
 .advantages-title {
   display: none;
@@ -93,21 +102,19 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .advantages-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  width: 264px;
-  height: 72px;
+  letter-spacing: 0.02em;
 }
 
+/* ========================================= */
+
 .team-section {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 
@@ -115,7 +122,7 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -133,7 +140,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -142,14 +149,16 @@ ul {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
+
+/* ========================================= */
 
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -163,23 +172,25 @@ ul {
   height: 300px;
 }
 
+/* ========================================= */
+
 .app-type {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .app-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
+/* ========================================= */
+
 footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
@@ -189,7 +200,7 @@ footer {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -198,10 +209,8 @@ footer {
 }
 
 .footer-text {
-  width: 264px;
-  height: 72px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
