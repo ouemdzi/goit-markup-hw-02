@@ -22,7 +22,7 @@ ul {
 
 .logo {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -191,7 +191,7 @@ footer {
 .footer-text {
   width: 264px;
   height: 72px;
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
