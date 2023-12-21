@@ -46,7 +46,7 @@ ul {
   font-style: normal;
 }
 
-.header-section {
+.title-section {
   background-color: #2e2f42;
 }
 
@@ -70,6 +70,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  background-color: #2e2f42;
 }
 
 .header-button {
