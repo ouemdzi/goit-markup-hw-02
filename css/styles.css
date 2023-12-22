@@ -97,11 +97,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: none;
-}
-
-.adv-list {
-  display: flex;
 }
 
 .advantages {
@@ -125,6 +120,7 @@ ul {
 }
 
 .team-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -135,11 +131,6 @@ ul {
 
 .team-item {
   background-color: #ffffff;
-}
-
-.team-images {
-  width: 264px;
-  height: 260px;
 }
 
 .team-names {
@@ -161,17 +152,13 @@ ul {
 /* ========================================= */
 
 .portfolio-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-}
-
-.portfolio-images {
-  width: 360px;
-  height: 300px;
 }
 
 .app-type {
